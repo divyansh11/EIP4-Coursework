@@ -3,12 +3,15 @@
 
 # Definitions
 
+## Convolution
+- Mixing two matrices in a set format to produce a new matrix which symbolize the input matrix's specific property in some way.
+
 ## Filters/Kernels
 - It is matrix of weights which undergoes scalar multiplication with input pixels to form "hopefully meaningful" pixel.  
 ## Epochs
 - The number of times the convolution neural network crunches the whole dataset.
 ## 1x1 Convolution
--  It scalar multiplication of a channel with a number. Joins the channels which are contextually linked together.
+-  It scalar multiplication of a channel with a number. Joins the channels which are contextually linked together(drops the remaining).
 ## 3x3 Convolution
 - A method to approximate 9 pixels at a time to know what they aggregately contain and representing the result with 1 number.
 ## Feature Maps
