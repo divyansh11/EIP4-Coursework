@@ -4,6 +4,13 @@ print(score) > [0.02145445833392441, 0.9943]
 
 Total params: 14,270, batch_size=128, epochs=20 val_acc: 0.9946 at 18th epoch
 
+## Strategy
+
+- Use less value for dropout in the initial stage on convolution to get more signal on edges and subsequently increasing it when coming to patterns.
+- Using Batch Normalization after each layer to standarize the input to another layer
+- Tried to reach receptive field of 7 in starting block, giving headstart to network.
+- 10 feature maps are supplied to Global Average Pooling which computes the avergae for each feature map and provides it to softmax to provide the probabilities. I got higher val_acc when using GAP instead of flatten.
+- Adding dropout after every layer, made my train_acc and test_acc difference to be smaller.
 ## Logs
 
 Train on 60000 samples, validate on 10000 samples
