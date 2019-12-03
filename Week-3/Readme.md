@@ -227,6 +227,6 @@ Epoch 50/50
 
 Model took 1907.49 seconds to train
 
-![Image]()
+![Image](https://github.com/divyanshbajpai/EIP4-Coursework/blob/master/Week-3/Image.png)
 Accuracy on test data is: 86.04
 
