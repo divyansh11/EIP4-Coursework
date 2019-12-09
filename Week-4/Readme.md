@@ -259,3 +259,8 @@ Epoch 50/50
 Epoch 00050: LearningRateScheduler setting learning rate to 0.05.
 98/98 [==============================] - 111s 1s/step - loss: 0.3685 - acc: 0.9401 - val_loss: 0.4869 - val_acc: 0.9024
 <keras.callbacks.History at 0x7f0e96c974a8>
+
+
+**10000/10000 [==============================] - 11s 1ms/step
+Test loss: 0.48687340483665464
+Test accuracy: 0.9024**
