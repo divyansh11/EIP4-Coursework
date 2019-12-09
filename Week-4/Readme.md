@@ -4,7 +4,7 @@ Submitted on Online Tool
 # Assignment 4B
 Model: **ResNet56v2**  
 Val Acc: **90.36%**  
-LR : SuperConvergence(OneCycleRate)  
+LR : Super Convergence(OneCyclePolicy)  
 GradCam Implementation: **Done**
 
 ## Epoch Log
