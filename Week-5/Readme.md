@@ -1,5 +1,6 @@
 # Assignment-5
 
+Arch: ResNet50v2
 Epoch=50
 LR= OneCycleLR
 
